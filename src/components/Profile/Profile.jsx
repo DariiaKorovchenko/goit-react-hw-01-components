@@ -5,22 +5,22 @@ export const Profile = ({ url, name, tag, location, stats }) => {
   return (
     <div className={css.profile}>
       <div className="description">
-        <img src={url} alt="User avatar" className={css.avatar} />
+        <img src={url} alt={name} className={css.avatar} />
         <p className={css.name}>{name}</p>
         <p className="tag">@{tag}</p>
         <p className="location">{location}</p>
       </div>
 
       <ul className={css.stats}>
-        <li>
+        <li className={css.stats_item}>
           <span className={css.label}>Followers </span>
           <span className={css.quantity}>{stats.followers}</span>
         </li>
-        <li>
+        <li className={css.stats_item}>
           <span className={css.label}>Views </span>
           <span className={css.quantity}>{stats.views}</span>
         </li>
-        <li>
+        <li className={css.stats_item}>
           <span className={css.label}>Likes </span>
           <span className={css.quantity}>{stats.likes}</span>
         </li>

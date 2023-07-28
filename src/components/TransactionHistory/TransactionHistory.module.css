@@ -1,0 +1,23 @@
+.transaction_history {
+  width: 800px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.transaction_history th {
+  font-weight: bold;
+  padding: 10px;
+  background-color: rebeccapurple;
+  color: #fff;
+  border: 1px solid #dddddd;
+}
+.transaction_history td {
+  border: 1px solid #dddddd;
+  color: dimgray;
+  padding: 10px;
+}

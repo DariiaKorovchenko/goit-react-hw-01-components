@@ -1,0 +1,33 @@
+.name {
+  margin: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.profile {
+  width: 230px;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid gray;
+  background-color: #fff;
+}
+
+.stats {
+  display: flex;
+  margin-top: 20px;
+}
+
+.label {
+  color: gray;
+}
+
+.quantity {
+  font-weight: bold;
+  margin-top: 10px;
+}

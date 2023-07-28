@@ -13,6 +13,7 @@ export const App = () => {
         location={userData.location}
         stats={userData.stats}
       />
+      <Statistics title="Upload stats" items={statisticsData} />
     </div>
   );
 };
